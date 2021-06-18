@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.header-wrapper {
+  padding: 20px 40px;
+}
+
+@media screen and (min-width: 780px) {
+  .header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 40px;
+  }
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-left {
+  font-size: 30px;
+}
+
+.header-right > ul {
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (min-width: 780px) {
+  .header-right > ul {
+    width: 300px;
+  display: flex;
+  }
+}
+
+.header-right > ul > li {
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.header-nav {
+  display: none;
+}
+@media screen and (min-width: 780px) {
+  .header-right > ul > li {
+    margin-top: 0px;
+    font-size: 13px;
+  }
+  .header-nav {
+    display: block;
+  }
+  }
+
+.main-view {
+  background-image: url("../img/mainvisual-pc.jpg");
+  height: 70vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+}
+
+section {
+  padding: 80px 20px 0;
+}
+
+@media screen and (min-width: 780px) {
+  section {
+    padding: 80px 40px 0;
+  }
+}
+
+#about {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  padding-bottom: 30px;
+
+}
+
+#about > .top {
+  margin-top: 30px;
+}
+
+#about > .info {
+  margin-top: 30px;
+}
+
+#about > .text {
+  margin-top: 30px;
+}
+
+
+@media screen and (min-width: 780px) {
+  .view-top {
+    display: flex;
+    justify-content: space-between;
+  }
+  .view-bottom {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+img {
+  width: 100%;
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 780px) {
+  img {
+    width: 31%;
+    margin-top: 20px;
+  }
+}
+
+.news-inner {
+  display: none;
+}
+
+.news-content {
+  border-top: 1px solid rgb(116, 114, 114);
+  padding: 20px 0;
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.news-content:last-child {
+  border-bottom: 1px solid rgb(116, 114, 114);
+}
+
+.form-content {
+  margin-top: 20px;
+}
+
+@media screen and (min-width: 780px) {
+  .form-content {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+@media screen and (min-width: 780px) {
+  .form-text {
+    width: 85%;
+  }
+}
+
+.contact-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgb(116, 114, 114);
+}
+
+.contact-textarea {
+  width: 100%;
+  height: 180px;
+  border: 1px solid rgb(116, 114, 114);
+}
+
+.btn-wrapper {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.contact-btn {
+  background-color: #24292e;
+  color: white;
+  padding: 15px 80px;
+}
+
+
+.totop-wrapper {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.totop {
+  text-align: center;
+  background-color: skyblue;
+  height: 30px;
+  line-height:30px;
+  width: 150px;
+  margin-left: auto;
+  cursor: pointer;
+  color: white;
+}
+
+.fas {
+  color: white;
+}
+
+footer {
+  background-color: #24292e;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  padding: 10px 0;
+  margin-top: 30px;
+}
